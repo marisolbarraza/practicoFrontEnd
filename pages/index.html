@@ -4,45 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/index_style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <header>
-        CAC-Movies
-        <select name="" id="">
-            <option value="">Inglés</option>
-            <option value="">Español</option>
-        </select>
-        
+    <!-- encabezado de página -->
+    <header class="encabezado">
+        <a href="../pages/index.html" class="logo">
+            <i class="bi bi-film"></i>
+            <p class="logo">TUPELICULA.COM</p>
+        </a>
+        <nav class="navegacion">
+            
+            <select class="idioma" id="">
+                <option value="EN">EN - Inglés</option>
+                <option value="ES">ES - Español</option>
+            </select>
+            <button class="inicio-sesion"><a href="../pages/sign_in.html">Iniciar sesión</a></button>
+        </nav>  
     </header>
-    <div>
 
-    </div>
-    <div>
-        <h2>Lorem, ipsum dolor.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quas.</p>
-        <img src="" alt="">
-    </div>
-    <div>
-        <h2>Lorem, ipsum dolor.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quas.</p>
-        <img src="" alt="">
-    </div>
-    <div>
-        <h2>Lorem, ipsum dolor.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quas.</p>
-        <img src="" alt="">
-    </div>
-    <h1>Películas, series y mucho más </h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, natus.</p>
+    <!-- cuerpo -->
+    <main>
+        <div class="cartel-principal">
+            <h2>Todas tus pelis en un solo lugar</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, natus.</p>
 
-    <footer>
-        <ul>
+        </div>
+        <div class="cartel-secundario">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quas.</p>
+            <img src="" alt="">
+        </div>
+        <div class="cartel-secundario">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quas.</p>
+            <img src="" alt="">
+        </div>
+        <div class="cartel-secundario">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quas.</p>
+            <img src="" alt="">
+        </div>
+    </main>
+
+    <!-- pie de página -->
+    <footer class="footer">
+        <ul class="menu-footer">
             <li>Preguntas frecuentes</li>
             <li>Términos y condiciones</li>
             <li>Contáctanos</li>
         </ul>
-        <p>CAC-Movies</p>
+        <hr>
+        <div class="logo-redes">
+            <p class="logo-footer">©TuPelícula.com</p>
+            <div class="redes-sociales">
+                <a href="wwww.youtube.com"><i class="bi bi-youtube"></i></a>
+                <i class="bi bi-facebook"><a href="wwww.facebook.com"></a></i>
+                <i class="bi bi-instagram"><a href="wwww.instagram.com"></a></i>
+                <i class="bi bi-twitter-x"><a href="www.x.com"></a></i>
+            </div>
+        </div>
+        
+        
     </footer>
 
 </body>
