@@ -1,0 +1,84 @@
+*{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/*encabezado de página*/
+.encabezado{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items:center;
+}
+
+.logo{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+}
+
+.navegacion{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: end; 
+}
+
+.idioma{
+    background-color: black;
+    width: 120px;
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: aliceblue;
+}
+
+/*contenido de página*/
+main{
+    background-color: black;
+}
+.formulario{
+    display: block;
+    flex-direction: column;
+}
+
+
+
+/*pie de página*/
+.footer{
+    background-color: red;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: px;
+    display: flex;
+    flex-direction: column;
+}
+.menu-footer{
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+.separador{
+    background-color: aliceblue;
+}
+.logo-redes{
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
