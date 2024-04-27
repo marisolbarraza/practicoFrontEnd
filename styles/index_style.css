@@ -19,7 +19,7 @@ main{
 }
 
 .cartel-principal{
-    background-image: url(/images/index_img3.jpg);
+    background-image: url("../images/index_img3.jpg");
     height: 400px;
     display: flex;
     flex-direction: row;
