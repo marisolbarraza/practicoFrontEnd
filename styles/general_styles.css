@@ -13,10 +13,13 @@ body{
 
 /*encabezado de página*/
 .encabezado{
+    position:relative;
+    z-index: 2;
     background-color: black;
     height: 80px;
     display: flex;
     align-items:center;
+    
 }
 
 .logo{
@@ -46,7 +49,7 @@ body{
 /*pie de página*/
 .footer{
     background-color: red;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
