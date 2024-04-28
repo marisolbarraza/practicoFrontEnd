@@ -2,20 +2,22 @@
 /*general*/
 *{
     font-family: 'Montserrat';
+    color: beige;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
-    color: aliceblue;
 }
-body{
+/* body{
     display: flex;
     flex-direction: column;
-}
+} */
 
 /*encabezado de página*/
 .encabezado{
     position:relative;
     z-index: 2;
     background-color: black;
+    width: 100%;
     height: 80px;
     display: flex;
     align-items:center;
