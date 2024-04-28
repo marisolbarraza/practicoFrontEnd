@@ -1,15 +1,15 @@
 main{
     background: url("../images/index_img3.jpg");
     background-size: contain;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .seccion-registrarse{
     background-color: black;
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     padding: 60px;
@@ -25,4 +25,30 @@ form{
     justify-content: center;
     
 } 
+.titulo{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
 
+input, select{
+    margin: 5px;
+    background-color: black;
+    border-radius: 8px;
+    border: 2px solid;
+    width: 250px;
+    height: 36px;
+}
+.check{
+    width: auto !important;
+    height: auto  !important;
+}
+.textoCheck{
+    font-size: 14px;
+}
+.boton{
+    background-color: red;
+    margin-left: 12px;
+    padding: 12px;
+    border-radius: 20px;
+    border-width: 0;
+}
