@@ -1,4 +1,4 @@
-# Entregable 1 - FrontEnd
+# Integrador Final - FrontEnd
 ## Stack
 * HTML
 * CSS

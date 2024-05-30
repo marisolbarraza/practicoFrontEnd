@@ -3,14 +3,8 @@
 *{
     font-family: 'Montserrat';
     color: beige;
-    /* box-sizing: border-box; */
     margin: 0;
-    padding: 0;
 }
-/* body{
-    display: flex;
-    flex-direction: column;
-} */
 
 /*encabezado de página*/
 .encabezado{
@@ -24,7 +18,7 @@
     
 }
 
-.logo{
+#logo{
     margin: 20px;
     text-decoration: none;
     font-size: 20px;
@@ -70,7 +64,7 @@
 .separador{
     background-color: aliceblue;
 }
-.logo-redes{
+#logo-redes{
     background-color: black;
     padding: 30px;
     display: flex;
