@@ -3,68 +3,40 @@
 /*contenido de la página*/
 main{
     background-color: black;
-    display: flex;
-    flex-direction: column;
 }
-#cartel{
-    background: url("../images/index_img3.jpg");
-    height: 620px;
+.container{
+    background: url("../images/familia-viendo-television2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
 }
-#cartel-principal{
-    /* background: url("../images/index_img3.jpg"); */
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-position: top;
-}
-#cartel-principal:before{
-    content: ""; /* Necesario para crear un elemento pseudo-elemento */
-    position: absolute; /* Posiciona el degradado encima de la imagen */
-    top: 0;
-    left: 0;
+.container::before{
+    content: "";
+    position: absolute;
     width: 100%;
-    height: 480px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)); /* Definición del degradado */
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    z-index: 1; 
 }
 
-#cartel-principal-texto{
+.cartel-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     z-index: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-#cartel-principal-texto>h1{
-    margin-bottom: 30px;
-}
-#cartel-principal-texto>p{
-    font-size: 18px;
-}
-#cartel-principal-texto>button{
-    margin-top: 30px;
-}
-.separador{
-    height: 3px;
-    width: 100%;
 
-}
-.cartel-secundario{
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 600px;
-    justify-content: center;
-}
-.cartel-secundario>h2{
-    margin-bottom: 20px;
-}
-.cartel-secundario>p{
-    font-size: 18px;
+.cartel-principal>h1{
+    margin-top: 30px;
     margin-bottom: 30px;
+}
+.cartel-principal>p{
+    font-size: 18px;
+}
+.cartel-principal>button{
+    margin-top: 30px;
 }
 .registro{
     background-color: red;
@@ -73,27 +45,42 @@ main{
     width: 300px;
     border-radius: 20px;
     border-width: 0;
-}
-
-.registro>a{
-    text-decoration: none;
     font-weight: bold;
 }
-
-.foto-secundaria{
-    width: 400px;
-    height: 200px;
+.separador{
+    height: 2px;
+    width: 100%;
+    background-color: beige;
 }
-
-.cartel-secundario-peliculas{
+.cartel-secundario{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    height: 400px;
+    justify-content:space-between;
 }
-.cartelera{
-    border-radius: 20px;
-    width: 200px;
-    height: 300px;
+.texto-secundario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
 }
+.texto-secundario>h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.texto-secundario>p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.foto-secundaria{
+    width: 650px;
+    height: 400px;
+}
+
+
 
 
 

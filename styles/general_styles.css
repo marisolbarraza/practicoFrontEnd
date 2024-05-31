@@ -10,7 +10,8 @@
 
 /*encabezado de página*/
 .encabezado{
-    background-color: black;
+    position: relative;
+    z-index: 2;
     height: 80px;
     padding-left: 80px;
     padding-right: 80px;
@@ -42,37 +43,27 @@
     border-radius: 14px;
     border-width: 0;
     font-weight: bold;
-
 }
-
 
 /*pie de página*/
 .footer{
     background-color: red;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: px;
     display: flex;
     flex-direction: column;
 }
+
 .menu-footer{
     margin: 20px;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    
+    justify-content:space-around;   
 }
-.separador{
-    background-color: aliceblue;
-}
-#logo-redes{
+
+.logo-redes{
     background-color: black;
     padding: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
