@@ -1,46 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*general*/
 *{
     font-family: 'Montserrat';
     color: beige;
-    margin: 0;
+    margin: 0%;
+    text-decoration: none;
 }
 
 /*encabezado de página*/
 .encabezado{
-    position:relative;
-    z-index: 2;
     background-color: black;
-    width: 100%;
     height: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
     display: flex;
-    align-items:center;
-    
+    align-items: center;
+    justify-content: space-between;
 }
-
 #logo{
-    margin: 20px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight:bold;
     display: flex;
     align-items: center;
 }
-
-.navegacion{
-    margin: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: end; 
+#titulo{
+    margin-left: 10px;
+    font-weight:bold;
+    font-size: 20px;
 }
-
 .idioma{
     background-color: black;
+    padding:8px;
     width: 120px;
-    border-radius: 16px;
+    border-radius: 14px;
     border-width: 2px;
-    border-color: aliceblue;
+    border-color: beige;
 }
+.inicio-sesion{
+    background-color: red;
+    margin-left: 12px;
+    padding: 12px;
+    border-radius: 14px;
+    border-width: 0;
+    font-weight: bold;
+
+}
+
 
 /*pie de página*/
 .footer{

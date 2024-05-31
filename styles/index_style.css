@@ -1,15 +1,4 @@
-.inicio-sesion{
-    background-color: red;
-    margin-left: 12px;
-    padding: 12px;
-    border-radius: 20px;
-    border-width: 0;
-}
 
-.inicio-sesion>a{
-    text-decoration: none;
-    font-weight: bold;
-}
 
 /*contenido de la página*/
 main{
@@ -17,9 +6,12 @@ main{
     display: flex;
     flex-direction: column;
 }
-
-.cartel-principal{
+#cartel{
     background: url("../images/index_img3.jpg");
+    height: 620px;
+}
+#cartel-principal{
+    /* background: url("../images/index_img3.jpg"); */
     height: 400px;
     display: flex;
     flex-direction: row;
@@ -27,7 +19,7 @@ main{
     justify-content: center;
     background-position: top;
 }
-.cartel-principal:before{
+#cartel-principal:before{
     content: ""; /* Necesario para crear un elemento pseudo-elemento */
     position: absolute; /* Posiciona el degradado encima de la imagen */
     top: 0;
@@ -37,20 +29,20 @@ main{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)); /* Definición del degradado */
 }
 
-.cartel-principal-texto{
+#cartel-principal-texto{
     position: relative;
     z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.cartel-principal-texto>h1{
+#cartel-principal-texto>h1{
     margin-bottom: 30px;
 }
-.cartel-principal-texto>p{
+#cartel-principal-texto>p{
     font-size: 18px;
 }
-.cartel-principal-texto>button{
+#cartel-principal-texto>button{
     margin-top: 30px;
 }
 .separador{
