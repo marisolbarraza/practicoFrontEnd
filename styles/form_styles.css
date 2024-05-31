@@ -1,0 +1,75 @@
+/* formulario general*/
+.titulo{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+input, select{
+    background-color: black;
+    border-radius: 8px;
+    border: 2px solid;
+    width: 250px;
+    height: 36px;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form div{
+    margin-bottom: 10px;
+}
+
+/*Registro*/   
+main{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 0, 0, 1));
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+.seccion-registrarse{
+    background-color: black;
+    width: 300px;
+    height: 700px;
+    padding: 60px;
+    border: 3px solid;
+    border-radius: 20px;
+} 
+
+ 
+
+
+
+.check{
+    width: auto !important;
+    height: auto  !important;
+}
+.textoCheck{
+    font-size: 14px;
+}
+.boton{
+    background-color: red;
+    margin-left: 12px;
+    padding: 12px;
+    border-radius: 20px;
+    border-width: 0;
+}
+
+/*Inicio de sesión*/
+.seccion-login{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    padding: 60px;
+    border: 3px solid;
+    border-radius: 20px;
+} 
+.fondo-login{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 0, 0, 1));
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
