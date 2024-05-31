@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TuPelicula.com | Registro</title>
+    <title>TuPelicula.com | Iniciar sesión</title>
     <link rel="stylesheet" href="styles/general_styles.css">
     <link rel="stylesheet" href="styles/form_styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -20,13 +20,15 @@
     <!-- contenido de página -->
     <main class="fondo-login">
         <section class="seccion-login">
-            <form action="" method="post">
+            <form action="" method="get">
                 <h2 class="titulo">Iniciar sesión</h2>
                 <div>
-                    <input type="text" placeholder="correo electrónico" required name="apellido" id="apellido">
-                    
+                    <input type="text" placeholder="Correo electrónico" name="email" id="email">
+                    <div class="error" id="emailError"></div>
                 </div>
-                    <input type="password" placeholder="Contraseña" required name="contraseña" id="contraseña">
+                <div>
+                    <input type="password" placeholder="Contraseña" name="contraseña" id="contraseña">
+                    <div class="error" id="contraseñaError"></div>
                 </div>
                 <div>
                     <input  class="boton" type="submit" value="Ingresar">
@@ -41,7 +43,7 @@
     
     
     <!-- pie de página -->
-    <footer class="footer">
+    <footer class="footer" id="loginForm">
         <ul class="menu-footer">
             <a href=""><li>Mi cuenta</li></a>
             <a href=""><li>Preguntas frecuentes</li></a>
